@@ -6,7 +6,7 @@
  2. Run install.bat
  3. Edit the index.js
  4. After the install.bat force closing
- 5. Run start.bat
+ 5. Run startbot.bat
  6. Enjoy
 #### What Benefits Making Server Status Bot Inside VPS?
  1. Online 24/7 Without Hosting!
