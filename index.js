@@ -36,7 +36,7 @@ client.on('ready', () => {
 
   setInterval(function(){
   	var color = randomColor();
-isRunning('Server.exe', (status) => {
+isRunning('enet.exe', (status) => {
     if (status == true) {
     	lineReader.eachLine('onlineplayer.txt', function(line) {
 
