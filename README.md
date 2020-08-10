@@ -1,6 +1,6 @@
 # GTPS-Server-Status-Bot (C)
 * You Only Need Node.js https://nodejs.org/en/download/
-
+* And rename ur exe to enet.exe
 ## How To Setup?
  1. Open command prompt
  2. cd (files where you put index.js)
