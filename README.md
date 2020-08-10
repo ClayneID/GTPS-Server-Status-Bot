@@ -4,8 +4,8 @@
 ## How To Setup?
  1. Extract the zip to your source file server
  2. Run install.bat
- 3. Edit the index.js
- 4. After the install.bat force closing
+ 3. After the install.bat force closing
+ 4. Edit the index.js
  5. Run startbot.bat
  6. Enjoy
 #### What Benefits Making Server Status Bot Inside VPS?
