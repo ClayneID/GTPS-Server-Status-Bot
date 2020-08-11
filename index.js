@@ -44,7 +44,7 @@ isRunning('enet.exe', (status) => {
 	.setColor(color)
 	.setAuthor('ur server name', msg.guild.iconURL())
 	.addField('**Server Status:**', '**UP**')
-	.addField('**Note:**', line)
+	.addField('**Players Online:**', line)
 	.setTimestamp()
 	.setFooter('Last Updated');
 	
