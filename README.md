@@ -10,6 +10,9 @@
  4. Edit the index.js
  5. Run startbot.bat
  6. Enjoy
+## Attention
+ * at line 35, change the channel id to ur server channel id!
+ * at line 71, change the token bot to ur token bot!
 #### What Benefits Making Server Status Bot Inside VPS?
  1. Online 24/7 Without Hosting!
  2. Can Scan ur exe (if exe is not running, the bot will say down else if ur exe is running the bot will say up)
