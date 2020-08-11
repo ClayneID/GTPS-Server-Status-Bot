@@ -26,7 +26,7 @@ client.on('ready', () => {
 
   	const statusz = new Discord.MessageEmbed()
 	.setColor('#ff0000')
-	.setAuthor('ur server name', 'https://cdn.discordapp.com/attachments/724070731209769020/728563906557116546/20200701_120136.png', '')
+	.setAuthor(`${msg.guild.name}`, 'https://cdn.discordapp.com/attachments/724070731209769020/728563906557116546/20200701_120136.png', '')
 	.addField('*Server Status:**', '**DOWN**')
 	.addField('Players Online:', 'Please wait.')
 	.setTimestamp()
@@ -42,7 +42,7 @@ isRunning('enet.exe', (status) => {
 
         const statuszz = new Discord.MessageEmbed()
 	.setColor(color)
-	.setAuthor('ur server name', msg.guild.iconURL())
+	.setAuthor(`${msg.guild.name}`, msg.guild.iconURL())
 	.addField('**Server Status:**', '**UP**')
 	.addField('**Players Online:**', line)
 	.setTimestamp()
@@ -55,7 +55,7 @@ isRunning('enet.exe', (status) => {
     {
         const statusz = new Discord.MessageEmbed()
 	.setColor(color)
-	.setAuthor('ur server name', msg.guild.iconURL())
+	.setAuthor(`${msg.guild.name}`, msg.guild.iconURL())
 	.addField('**Server Status:**', '**DOWN**')
 	.addField('**Players online:**', '0')
 	.setTimestamp()
