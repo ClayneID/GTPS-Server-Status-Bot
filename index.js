@@ -26,7 +26,7 @@ client.on('ready', () => {
 
   	const statusz = new Discord.MessageEmbed()
 	.setColor('#ff0000')
-	.setAuthor(`${msg.guild.name}`, 'https://cdn.discordapp.com/attachments/724070731209769020/728563906557116546/20200701_120136.png', '')
+	.setAuthor(`GT Private Server`, 'https://cdn.discordapp.com/attachments/724070731209769020/728563906557116546/20200701_120136.png', '')
 	.addField('*Server Status:**', '**DOWN**')
 	.addField('Players Online:', 'Please wait.')
 	.setTimestamp()
