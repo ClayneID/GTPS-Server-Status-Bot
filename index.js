@@ -28,7 +28,7 @@ client.on('ready', () => {
 	.setColor('#ff0000')
 	.setAuthor('ur server name', 'https://cdn.discordapp.com/attachments/724070731209769020/728563906557116546/20200701_120136.png', '')
 	.addField('*Server Status:**', '**DOWN**')
-	.addField('Note:', 'Please wait.')
+	.addField('Players Online:', 'Please wait.')
 	.setTimestamp()
 	.setFooter('Last Updated');
 
