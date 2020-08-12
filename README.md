@@ -14,8 +14,8 @@
  * at line 35, change the channel id to ur server channel id!
  * at line 71, change the token bot to ur token bot!
 # Changelogs
- * New Changelogs 12-08-2020: 
-   1. Added World, Players & Guilds file data count.
+ ### New Changelogs 12-08-2020: 
+   * Added World, Players & Guilds file data count.
 #### What Benefits Making Server Status Bot Inside VPS?
  1. Online 24/7 Without Hosting!
  2. Can Scan ur exe (if exe is not running, the bot will say down else if ur exe is running the bot will say up)
