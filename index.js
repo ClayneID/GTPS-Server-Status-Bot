@@ -39,12 +39,15 @@ client.on('ready', () => {
 isRunning('enet.exe', (status) => {
     if (status == true) {
     	lineReader.eachLine('onlineplayer.txt', function(line) {
-
+        const f1 = fs.readdirSync('player').length
+        const f2 = fs.readdirSync('worlds').length
         const statuszz = new Discord.MessageEmbed()
 	.setColor(color)
 	.setAuthor(`${msg.guild.name}`, msg.guild.iconURL())
 	.addField('**Server Status:**', '**UP**')
 	.addField('**Players Online:**', line)
+	.addField('**Players File Count: **', f1)
+	.addField('**Worlds File Count: **', f2)
 	.setTimestamp()
 	.setFooter('Last Updated');
 	
