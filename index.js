@@ -1,3 +1,7 @@
+/*
+* Coded by Clayne#1000
+* Helped by nok#1337 & GuckTubeYT#5000
+*/
 const Discord = require('discord.js')
 const client = new Discord.Client()
 var fs = require('fs');
