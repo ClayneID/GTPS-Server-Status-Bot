@@ -45,6 +45,7 @@ isRunning('enet.exe', (status) => {
     	lineReader.eachLine('onlineplayer.txt', function(line) {
         const f1 = fs.readdirSync('player').length
         const f2 = fs.readdirSync('worlds').length
+        const f3 = fs.readdirSync('guilds').length
         const statuszz = new Discord.MessageEmbed()
 	.setColor(color)
 	.setAuthor(`${msg.guild.name}`, msg.guild.iconURL())
@@ -52,6 +53,7 @@ isRunning('enet.exe', (status) => {
 	.addField('**Players Online:**', line)
 	.addField('**Players File Count: **', f1)
 	.addField('**Worlds File Count: **', f2)
+        .addField('**Guilds File Count: **', f3)
 	.setTimestamp()
 	.setFooter('Last Updated');
 	
@@ -60,11 +62,17 @@ isRunning('enet.exe', (status) => {
     }
     else
     {
+        const f1 = fs.readdirSync('player').length
+        const f2 = fs.readdirSync('worlds').length
+        const f3 = fs.readdirSync('guilds').length
         const statusz = new Discord.MessageEmbed()
 	.setColor(color)
 	.setAuthor(`${msg.guild.name}`, msg.guild.iconURL())
 	.addField('**Server Status:**', '**DOWN**')
 	.addField('**Players online:**', '0')
+        .addField('**Players File Count: **', f1)
+	.addField('**Worlds File Count: **', f2)
+        .addField('**Guilds File Count: **', f3)
 	.setTimestamp()
 	.setFooter('Last Updated');
 	 
