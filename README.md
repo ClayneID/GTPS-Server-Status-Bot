@@ -7,7 +7,7 @@
  2. Extract it to ur gtps folder
  2. Run install.bat
  3. After the install.bat force closing
- 4. Edit the index.js
+ 4. Edit the botconfig.json
  5. Run startbot.bat
  6. Enjoy
 ## Attention
