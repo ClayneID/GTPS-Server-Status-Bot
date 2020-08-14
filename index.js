@@ -5,6 +5,7 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
 var fs = require('fs');
+const config = require("./botconfig.json")
 const exec = require('child_process').exec;
 const lineReader = require('line-reader');
 var randomColor = require('randomcolor');
@@ -36,7 +37,7 @@ client.on('ready', () => {
 	.setTimestamp()
 	.setFooter('Last Updated');
 
-    client.channels.cache.get('channel id').send(statusz).then((msg)=> {
+    client.channels.cache.get(config.channel).send(statusz).then((msg)=> {
 
   setInterval(function(){
   	var color = randomColor();
@@ -83,4 +84,4 @@ isRunning('enet.exe', (status) => {
 }); 
 })
 
-client.login('your token bot')
+client.login(config.token)
