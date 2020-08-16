@@ -19,6 +19,8 @@
    * Added World, Players & Guilds file data count.
  ### New Changelogs 14-08-2020:
    * Added botconfig.json for more easily you change token bot & channel id.
+ ### New Changelogs 16-08-2020:
+   * Now, You can edit players folder, worlds folder & guilds folder on botconfig.json
 # Warning
 * This source code not for sale, because this is common source.
 
