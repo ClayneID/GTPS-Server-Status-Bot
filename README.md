@@ -12,8 +12,7 @@
  6. Enjoy
 ## Attention
  * rename our exe to enet.exe
- * at line 35, change the channel id to ur server channel id!
- * at line 71, change the token bot to ur token bot!
+ * at botconfig.json, put your token bot, channel id & players, worlds, guilds folder name on ur source files
 # Changelogs
  ### New Changelogs 12-08-2020: 
    * Added World, Players & Guilds file data count.
