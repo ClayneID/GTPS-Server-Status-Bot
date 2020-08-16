@@ -1,5 +1,6 @@
 # GTPS-Server-Status-Bot (C)
 * You Only Need Node.js https://nodejs.org/en/download/
+* If you have any problem, dm my discord Clayne#1000
 ## How To Setup?
  1. Download the code
  ![image](https://cdn.discordapp.com/attachments/703227581259841607/742316353616085062/Screenshot_2020-08-10-16-37-19-878_com.microsoft.rdc.android.png)
