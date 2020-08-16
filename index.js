@@ -44,9 +44,9 @@ client.on('ready', () => {
 isRunning('enet.exe', (status) => {
     if (status == true) {
     	lineReader.eachLine('onlineplayer.txt', function(line) {
-        const f1 = fs.readdirSync('player').length
-        const f2 = fs.readdirSync('worlds').length
-        const f3 = fs.readdirSync('guilds').length
+        const f1 = fs.readdirSync(config.player).length
+        const f2 = fs.readdirSync(config.world).length
+        const f3 = fs.readdirSync(config.guild).length
         const statuszz = new Discord.MessageEmbed()
 	.setColor(color)
 	.setAuthor(`${msg.guild.name}`, msg.guild.iconURL())
@@ -63,9 +63,9 @@ isRunning('enet.exe', (status) => {
     }
     else
     {
-        const f1 = fs.readdirSync('player').length
-        const f2 = fs.readdirSync('worlds').length
-        const f3 = fs.readdirSync('guilds').length
+        const f1 = fs.readdirSync(config.player).length
+        const f2 = fs.readdirSync(config.world).length
+        const f3 = fs.readdirSync(config.guild).length
         const statusz = new Discord.MessageEmbed()
 	.setColor(color)
 	.setAuthor(`${msg.guild.name}`, msg.guild.iconURL())
