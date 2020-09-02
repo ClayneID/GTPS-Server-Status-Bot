@@ -1,6 +1,6 @@
 /*
-* Coded by Clayne#1000
-* Helped by nok#1337 & GuckTubeYT#5000
+* Coded by Clayne#5451
+* Helped by No#7777 & GuckTubeYT#3123
 */
 const Discord = require('discord.js')
 const client = new Discord.Client()
