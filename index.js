@@ -3,13 +3,13 @@
 * Helped by No#7777 & GuckTubeYT#3123
 */
 const Discord = require('discord.js')
-const client = new Discord.Client()
 var fs = require('fs');
 const config = require("./botconfig.json")
 const exec = require('child_process').exec;
 const lineReader = require('line-reader');
+const { Client, Intents } = require('discord.js');
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 var randomColor = require('randomcolor');
-
 const isRunning = (query, cb) => {
     let platform = process.platform;
     let cmd = '';
@@ -23,9 +23,7 @@ const isRunning = (query, cb) => {
         cb(stdout.toLowerCase().indexOf(query.toLowerCase()) > -1);
     });
 }
-
 client.on('ready', () => {
-
   console.log(`${client.user.tag} Now Is Online!`)
   client.user.setActivity('GT Private Server | Server Status', { type: 'STREAMING' });
 
@@ -38,7 +36,6 @@ client.on('ready', () => {
 	.setFooter('Last Updated');
 
     client.channels.cache.get(config.channel).send(statusz).then((msg)=> {
-
   setInterval(function(){
   	var color = randomColor();
 isRunning('enet.exe', (status) => {
@@ -83,5 +80,4 @@ isRunning('enet.exe', (status) => {
   }, 3000)
 }); 
 })
-
 client.login(config.token)
